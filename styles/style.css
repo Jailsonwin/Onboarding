@@ -10,7 +10,7 @@
     flex-direction:column;
 }
 .image-center{
-    padding-top: auto;
+    margin-top: auto;
     display: flex;
     justify-content: center;
 }
@@ -66,4 +66,7 @@
     padding-top: 20px;
     color: #92E3A9;
     text-decoration: none;
+}
+.options{
+    margin-bottom: auto;
 }
