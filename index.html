@@ -4,13 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="styles/stilo.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+    
     <title>Primeiro Projeto - Jailson</title>
 </head>
 <body>
 
-<div id="container">
+<div class="container">
     <div class="image-center">
         <img src="Image/online-world.png" alt="Peoples conected with internet"> <!-- VERIFICAR SE ESTA CORRETA A FRASE -->
     </div>
@@ -19,13 +23,15 @@
         <p class="center-text">Find gardening enthusiasts from<br>all over the world</p>
     </div>
     <div class="options">
-           <label class="page-check-label"> 
-            <a href="#" class="selected"></a>
-            <a href="#"></a>
-            <a href="#"></a>
-           </label>
-            <a id="continue" class="primary-button" href="page2.html"> Continue </a>
-            <a class="secondary-button" href="#">Skip</a>
+           <div class="selector">
+               <a href="index1.html" class="active"></a>
+               <a href="index2.html"></a>
+               <a href="index3.html"></a>
+           </div>
+           <div class="buttons">
+               <input type="button" value="Continue">
+                <a class="secondary-button" href="#"> Skip </a>
+           </div> 
     </div>
 </div>
 </body>
