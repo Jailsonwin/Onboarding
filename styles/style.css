@@ -3,13 +3,10 @@
     padding-top: auto;
     display: flex;
     justify-content: center;
-    justify-items: center;
 }
 .all-texts{
-    display: block;
-    justify-content: center;
-    align-items: center;
-    justify-items: center;
+    max-width: 299px;
+    margin: auto;
     text-align: center;
     font-family: 'Poppins', sans-serif;
 }
@@ -23,17 +20,12 @@
 }
 .selector {
     display: flex;
-    justify-items: center;
     justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
     margin-top: 20px;
     margin-bottom: 60px;
-    
 }
 
 .selector a {
-    display: inline-block;
     margin: 6px;
     padding: 5px;
     border-radius: 100px;
@@ -44,16 +36,9 @@
     background: #92E3A9;
     border-color: #92E3A9;
 }
-#continue{
-    width: 308px;
-    height: 54px;
-    color: #FFFF;
-    background: #92E3A9;
-}
 .buttons{
     display: grid;
     justify-items: center;
-    text-align: center;
     font-family: 'Poppins', sans-serif;
 }
 .buttons input{
@@ -71,7 +56,4 @@
     padding-top: 20px;
     color: #92E3A9;
     text-decoration: none;
-}
-.space{
-
 }
